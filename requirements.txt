@@ -1,0 +1,11 @@
+openai>=1.0.0
+google-auth-oauthlib>=0.4.6
+google-auth>=2.0.0
+google-api-python-client>=2.0.0
+tkinterweb>=3.0.0
+cryptography>=3.4.7
+markdown>=3.3.4
+msal>=1.20.0
+beautifulsoup4>=4.9.3
+requests>=2.26.0
+hatchling>=1.0.0

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling>=1.0.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "maia_mail_assistant"
+version = "1.7.3"
+authors = [
+    { name="Miguel Ladron de Cegama", email="" },
+]
+description = "Email assistant with AI-powered response generation"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "openai>=1.0.0",
+    "google-auth-oauthlib>=0.4.6",
+    "google-auth>=2.0.0",
+    "google-api-python-client>=2.0.0",
+    "tkinterweb>=3.0.0",
+    "cryptography>=3.4.7",
+    "markdown>=3.3.4",
+    "msal>=1.20.0",
+    "beautifulsoup4>=4.9.3",
+    "requests>=2.26.0"
+]
+
+[project.urls]
+"Homepage" = "https://www.unmannedexpert.com"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
